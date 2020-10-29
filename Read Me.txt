@@ -1,0 +1,21 @@
+Steps for database creation:
+Create a database named official_tybsc_project in phpmyadmin(localhost)
+then go to import > then import the File named official_tybsc_project.sql
+wait until all tables get imported.
+
+CONGRATULATIONS! Database Created successfully.
+
+Run the project by specifing the directory:
+eg: localhost/official_tybsc_project/
+
+For User Login:
+Username: praveen
+password: praveen123
+
+For Admin Login:
+Username: praveen_admin
+password: praveen_admin123
+
+NOTE: Only Admin can create other Admins...
+
+GOOD LUCK AND ENJOY !!!
