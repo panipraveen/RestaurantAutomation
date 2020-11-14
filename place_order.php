@@ -37,7 +37,7 @@
 					if ($result_2->num_rows > 0) {
 						// output data of each row
 						while($row_2 = $result_2->fetch_assoc()) {
-							$sql_3 = "INSERT INTO place_order(order_ref_id,menu_items_id,added_cost,quans,payment,date,time)VALUES('".$row_1["id"]."','".$row_2["menu_items_id"]."','".$row_2["added_cost"]."','".$row_2["quans"]."','notpaid','".date("Y/m/d")."','".date("h:i:sa")."')";	
+							$sql_3 = "INSERT INTO place_order(order_ref_id,menu_items_id,added_cost,quans,payment,date,time)VALUES('".$row_1["id"]."','".$row_2["menu_items_id"]."','".$row_2["added_cost"]."','".$row_2["quans"]."','notpaid','".date("Y/m/d")."','".date("h:i:s")."')";	
 							if (mysqli_query($conn, $sql_3)) {
 								//echo "New record created successfully";
 							} else {
